@@ -1,41 +1,55 @@
-# Olá, eu sou o Gabriel Vinicius 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+  <img alt="Gabriel Vinicius, desenvolvedor backend Java em formação" src="./assets/header-light.svg" width="100%">
+</picture>
 
-Estudante de **Análise e Desenvolvimento de Sistemas no SENAC SP** (2025–2028), em transição para tecnologia com foco em **desenvolvimento backend com Java**. Procuro uma vaga de **estágio em backend**.
+<p>
+  <a href="https://gvpoliveira.github.io"><img alt="Portfólio" src="https://img.shields.io/badge/Portfólio-gvpoliveira.github.io-F2B33D?style=for-the-badge&labelColor=13202B"></a>
+  <a href="https://www.linkedin.com/in/gvpoliveira"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-gvpoliveira-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=13202B"></a>
+  <a href="mailto:gabriel.vpoliveira@hotmail.com"><img alt="E-mail" src="https://img.shields.io/badge/E--mail-gabriel.vpoliveira@hotmail.com-56687A?style=for-the-badge&logo=maildotru&logoColor=white&labelColor=13202B"></a>
+</p>
 
-Trabalho como assistente de almoxarifado, e foi dessa rotina (entradas, requisições, inventário, estornos) que nasceu o meu projeto principal: um sistema de almoxarifado que reconstruo a cada nova etapa de estudo para entender, na prática, o que cada tecnologia resolve.
+### Sobre mim
 
-🌐 **Portfólio:** [gvpoliveira.github.io](https://gvpoliveira.github.io)
-💼 **LinkedIn:** [linkedin.com/in/gvpoliveira](https://www.linkedin.com/in/gvpoliveira)
-📫 **E-mail:** gabriel.vpoliveira@hotmail.com
+Estudante de **Análise e Desenvolvimento de Sistemas no SENAC SP** (2025–2028), em transição para tecnologia com foco em **backend com Java**. Procuro uma vaga de **estágio em desenvolvimento backend**.
 
----
+Trabalho como assistente de almoxarifado, e foi dessa rotina (entradas, requisições, inventário e estornos) que nasceu o meu projeto principal: um sistema de almoxarifado que reconstruo a cada etapa de estudo para entender, na prática, o que cada tecnologia resolve.
 
-## 📦 Projeto principal: um almoxarifado em três versões
+### Stack
+
+<p>
+  <img alt="Tecnologias: Java, Spring, Hibernate, MySQL, Maven, Git, GitHub, IntelliJ, HTML, CSS e JavaScript" src="https://skillicons.dev/icons?i=java,spring,hibernate,mysql,maven,git,github,idea,html,css,js&perline=11">
+</p>
+
+`POO` · `Collections` · `Exceções` · `Spring Data JPA` · `APIs REST` · `Bean Validation` · `JDBC` · `H2` · `JUnit 5` · `MockMvc`
+
+### Projeto principal: um almoxarifado em três versões
+
+```
+v1 · POO  ─────▶  v2 · JDBC  ─────▶  v3 · Spring Boot
+ Java puro         MySQL + SQL         JPA + API REST
+ regras e testes   transações          em andamento
+```
 
 | Versão | Repositório | O que pratiquei |
-| --- | --- | --- |
-| **v1 · POO** | [almoxarifado-system](https://github.com/GvPOliveira/almoxarifado-system) (tag `v0.1.0`) | Modelagem do domínio em Java puro, Collections, exceções de negócio e mais de 60 testes unitários com JUnit 5 |
-| **v2 · JDBC** | [almoxarifado-system](https://github.com/GvPOliveira/almoxarifado-system) (tag `v2.0`) | Persistência em MySQL com JDBC, SQL escrito à mão e controle manual de transações (commit e rollback) |
-| **v3 · Spring Boot** | [almoxarifado-v3](https://github.com/GvPOliveira/almoxarifado-v3) | Reconstrução com Spring Data JPA: entidades e repositórios testados, API REST com DTOs, tratamento global de erros e testes com MockMvc. *Em andamento.* |
+| :-- | :-- | :-- |
+| **v1 · POO** | [almoxarifado-system](https://github.com/GvPOliveira/almoxarifado-system) · tag `v0.1.0` | Domínio em Java puro, Collections, exceções de negócio e **mais de 60 testes unitários** com JUnit 5 |
+| **v2 · JDBC** | [almoxarifado-system](https://github.com/GvPOliveira/almoxarifado-system) · tag `v2.0` | Persistência em MySQL com JDBC, SQL escrito à mão e **controle manual de transações** (commit e rollback) |
+| **v3 · Spring Boot** | [almoxarifado-v3](https://github.com/GvPOliveira/almoxarifado-v3) | Spring Data JPA, API REST com DTOs, tratamento global de erros e testes com MockMvc |
 
-## 🗂️ Outros projetos
+### Outros projetos
 
-- **[gerenciador-de-jogadores](https://github.com/GvPOliveira/gerenciador-de-jogadores)**: API REST com Spring Boot, JPA e H2 para cadastro de jogadores e times, com front-end em HTML, CSS e JavaScript consumindo a API via `fetch`. Projeto acadêmico.
-- **[GvPOliveira.github.io](https://github.com/GvPOliveira/GvPOliveira.github.io)**: código do meu portfólio.
+| Projeto | Descrição |
+| :-- | :-- |
+| [gerenciador-de-jogadores](https://github.com/GvPOliveira/gerenciador-de-jogadores) | API REST com Spring Boot, JPA e H2 para jogadores e times, com front-end em JavaScript consumindo a API via `fetch`. Projeto acadêmico. |
+| [GvPOliveira.github.io](https://github.com/GvPOliveira/GvPOliveira.github.io) | Código do meu portfólio, com retrato interativo e modo claro/escuro. |
 
-## 🛠️ Tecnologias
+### Estudando agora
 
-**Backend:** Java · Programação Orientada a Objetos · Collections · Spring Boot · Spring Data JPA / Hibernate · APIs REST · Bean Validation
-**Banco de dados:** SQL · MySQL · JDBC · H2
-**Testes:** JUnit 5 · MockMvc
-**Ferramentas:** Git · GitHub · Maven · IntelliJ IDEA
-
-## 📈 Estudando agora
-
-- Regras de negócio da v3 (notas fiscais, requisições e estornos) com Spring
-- Testes automatizados no Spring
-- Boas práticas de APIs REST
+- [ ] Regras de negócio da v3 com Spring: notas fiscais, requisições e estornos
+- [ ] Testes automatizados no Spring
+- [ ] Boas práticas de APIs REST
 
 ---
 
-Sempre aberto a feedback sobre os meus projetos. Se quiser conversar, me chame no LinkedIn.
+<sub>Sempre aberto a feedback sobre os meus projetos. Se quiser conversar, me chame no LinkedIn.</sub>
