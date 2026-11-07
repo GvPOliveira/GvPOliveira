@@ -109,6 +109,13 @@ Java puro         MySQL + SQL         JPA + API REST
 
 </details>
 
+### Contribuições
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GvPOliveira/GvPOliveira/output/snake-dark.svg">
+  <img alt="Cobra percorrendo o gráfico de contribuições do GitHub" src="https://raw.githubusercontent.com/GvPOliveira/GvPOliveira/output/snake-light.svg" width="100%">
+</picture>
+
 ---
 
 <sub>Sempre aberto a feedback sobre os meus projetos. Se quiser conversar, me chame no LinkedIn.</sub>
