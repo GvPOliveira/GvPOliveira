@@ -20,8 +20,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake-light.svg?color_snake=#13202B&color_dots=#ebedf0,#f6dfa8,#f0c463,#d99a1e,#9A6200
-            dist/snake-dark.svg?color_snake=#E3E9EE&color_dots=#161b22,#4a3608,#7a5810,#c48a16,#F2B33D
+            dist/snake-light.svg?palette=github-light
+            dist/snake-dark.svg?palette=github-dark
 
       - name: Publica as animações no branch output
         uses: crazy-max/ghaction-github-pages@v4
