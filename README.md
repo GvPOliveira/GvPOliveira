@@ -6,31 +6,18 @@
 </a>
 
 <p>
-  <a href="https://gvpoliveira.github.io"><img alt="Portfólio" src="https://img.shields.io/badge/Portfólio-gvpoliveira.github.io-F2B33D?style=for-the-badge&labelColor=13202B"></a>
-  <a href="https://gvpoliveira.github.io/curriculo-gabriel-oliveira.pdf"><img alt="Currículo em PDF" src="https://img.shields.io/badge/Currículo-PDF-F2B33D?style=for-the-badge&labelColor=13202B"></a>
-  <a href="https://www.linkedin.com/in/gvpoliveira"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-gvpoliveira-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=13202B"></a>
-  <a href="mailto:gabriel.vpoliveira@hotmail.com"><img alt="E-mail" src="https://img.shields.io/badge/E--mail-gabriel.vpoliveira@hotmail.com-56687A?style=for-the-badge&labelColor=13202B"></a>
+  <a href="https://gvpoliveira.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-portfolio-dark.svg"><img alt="Portfólio" src="./assets/btn-portfolio-light.svg" height="48"></picture></a>
+  <a href="https://gvpoliveira.github.io/curriculo-gabriel-oliveira.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-curriculo-dark.svg"><img alt="Currículo em PDF" src="./assets/btn-curriculo-light.svg" height="48"></picture></a>
+  <a href="https://www.linkedin.com/in/gvpoliveira"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-linkedin-dark.svg"><img alt="LinkedIn" src="./assets/btn-linkedin-light.svg" height="48"></picture></a>
+  <a href="mailto:gabriel.vpoliveira@hotmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-email-dark.svg"><img alt="E-mail: gabriel.vpoliveira@hotmail.com" src="./assets/btn-email-light.svg" height="48"></picture></a>
 </p>
 
 ### Sobre mim
 
-```java
-public class GabrielVinicius {
-
-    private final String formacao = "Análise e Desenvolvimento de Sistemas · SENAC SP (2025–2028)";
-    private final String objetivo = "Estágio em desenvolvimento backend com Java";
-    private final String local    = "São Paulo – SP";
-
-    private final List<String> stack = List.of(
-        "Java", "Spring Boot", "Spring Data JPA", "MySQL", "JUnit 5", "MockMvc"
-    );
-
-    public String historia() {
-        return "Trabalho no almoxarifado e transformo essa rotina em sistema: "
-             + "o mesmo projeto reconstruído em POO, JDBC e Spring Boot.";
-    }
-}
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg">
+  <img alt="Terminal: Gabriel Vinicius, São Paulo – SP. Análise e Desenvolvimento de Sistemas no SENAC SP (2025–2028). Objetivo: estágio em desenvolvimento backend com Java. Trabalho no almoxarifado e transformo essa rotina em sistema: o mesmo projeto reconstruído em POO, JDBC e Spring Boot. Stack: Java, Spring Boot, Spring Data JPA, MySQL, JUnit 5 e MockMvc." src="./assets/about-light.svg" width="100%">
+</picture>
 
 ### Stack
 
