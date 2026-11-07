@@ -1,61 +1,49 @@
 <a href="https://gvpoliveira.github.io">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
-    <img alt="Gabriel Vinicius, desenvolvedor backend Java em formação, aberto a estágio" src="./assets/header-light.svg" width="100%">
+    <img alt="Gabriel Vinicius, desenvolvedor backend Java e Spring Boot, disponível para estágio em São Paulo" src="./assets/header-light.svg" width="100%">
   </picture>
 </a>
 
 <p>
-  <a href="https://gvpoliveira.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-portfolio-dark.svg"><img alt="Portfólio" src="./assets/btn-portfolio-light.svg" height="48"></picture></a>
-  <a href="https://gvpoliveira.github.io/curriculo-gabriel-oliveira.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-curriculo-dark.svg"><img alt="Currículo em PDF" src="./assets/btn-curriculo-light.svg" height="48"></picture></a>
-  <a href="https://www.linkedin.com/in/gvpoliveira"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-linkedin-dark.svg"><img alt="LinkedIn" src="./assets/btn-linkedin-light.svg" height="48"></picture></a>
-  <a href="mailto:gabriel.vpoliveira@hotmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-email-dark.svg"><img alt="E-mail: gabriel.vpoliveira@hotmail.com" src="./assets/btn-email-light.svg" height="48"></picture></a>
+  <a href="https://gvpoliveira.github.io/curriculo-gabriel-oliveira.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-curriculo-dark.svg"><img alt="Baixar currículo em PDF" src="./assets/btn-curriculo-light.svg" height="40"></picture></a>
+  <a href="https://www.linkedin.com/in/gvpoliveira"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-linkedin-dark.svg"><img alt="LinkedIn" src="./assets/btn-linkedin-light.svg" height="40"></picture></a>
+  <a href="https://gvpoliveira.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-portfolio-dark.svg"><img alt="Portfólio" src="./assets/btn-portfolio-light.svg" height="40"></picture></a>
+  <a href="mailto:gabriel.vpoliveira@hotmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-email-dark.svg"><img alt="E-mail: gabriel.vpoliveira@hotmail.com" src="./assets/btn-email-light.svg" height="40"></picture></a>
 </p>
 
-### Sobre mim
+Estudante de Análise e Desenvolvimento de Sistemas no SENAC SP (2025–2028), em busca de **estágio em backend Java**. Trabalho como assistente de almoxarifado e uso essa rotina como laboratório: o mesmo sistema de estoque já foi reconstruído três vezes, de Java puro até uma API REST com Spring Boot.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg">
-  <img alt="Terminal: Gabriel Vinicius, São Paulo – SP. Análise e Desenvolvimento de Sistemas no SENAC SP (2025–2028). Objetivo: estágio em desenvolvimento backend com Java. Trabalho no almoxarifado e transformo essa rotina em sistema: o mesmo projeto reconstruído em POO, JDBC e Spring Boot. Stack: Java, Spring Boot, Spring Data JPA, MySQL, JUnit 5 e MockMvc." src="./assets/about-light.svg" width="100%">
-</picture>
+### Projeto em destaque
 
-### Stack
+<a href="https://github.com/GvPOliveira/almoxarifado-v3">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/card-almoxarifado-v3-dark.svg">
+    <img alt="Almoxarifado v3: API REST de controle de estoque com Java 21 e Spring Boot. 38 testes automatizados, 9 entidades JPA e arquitetura em camadas Controller, Service e Repository" src="./assets/card-almoxarifado-v3-light.svg" width="100%">
+  </picture>
+</a>
 
-<p>
-  <img alt="Java, Spring, Hibernate, MySQL, Maven, Git, GitHub, IntelliJ, HTML, CSS e JavaScript" src="https://skillicons.dev/icons?i=java,spring,hibernate,mysql,maven,git,github,idea,html,css,js&perline=11">
-</p>
-
-### Projetos
+### Outros projetos
 
 <table>
   <tr>
-    <td width="50%">
-      <a href="https://github.com/GvPOliveira/almoxarifado-v3">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="./assets/card-almoxarifado-v3-dark.svg">
-          <img alt="Almoxarifado v3 com Spring Boot: API REST com Spring Data JPA, 38 testes com JUnit 5 e MockMvc" src="./assets/card-almoxarifado-v3-light.svg" width="100%">
-        </picture>
-      </a>
-    </td>
-    <td width="50%">
+    <td width="33%">
       <a href="https://github.com/GvPOliveira/almoxarifado-system">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="./assets/card-almoxarifado-v1-v2-dark.svg">
-          <img alt="Almoxarifado v1 e v2 com POO e JDBC: 68 testes na v1 e transações na v2" src="./assets/card-almoxarifado-v1-v2-light.svg" width="100%">
+          <img alt="Almoxarifado v1 e v2: regras de negócio em Java puro e persistência com JDBC, 64 testes" src="./assets/card-almoxarifado-v1-v2-light.svg" width="100%">
         </picture>
       </a>
     </td>
-  </tr>
-  <tr>
-    <td width="50%">
+    <td width="33%">
       <a href="https://github.com/GvPOliveira/gerenciador-de-jogadores">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="./assets/card-gerenciador-dark.svg">
-          <img alt="Gerenciador de Jogadores: CRUD com Spring Boot, JPA, H2 e front-end em JavaScript" src="./assets/card-gerenciador-light.svg" width="100%">
+          <img alt="Gerenciador de Jogadores: API REST com Spring Boot, JPA, H2 e front-end em JavaScript" src="./assets/card-gerenciador-light.svg" width="100%">
         </picture>
       </a>
     </td>
-    <td width="50%">
+    <td width="33%">
       <a href="https://gvpoliveira.github.io/#jogo">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="./assets/card-portfolio-dark.svg">
@@ -66,17 +54,18 @@
   </tr>
 </table>
 
+### Trajetória
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/timeline-dark.svg">
+  <img alt="Trajetória: v1 em Java puro com POO e 64 testes; v2 com JDBC e MySQL; v3 atual com Spring Boot, JPA e 38 testes; próximo passo: notas fiscais, requisições e estornos via API" src="./assets/timeline-light.svg" width="100%">
+</picture>
+
 <details>
 <summary><b>Por que reconstruir o mesmo sistema três vezes?</b></summary>
 <br>
 
 Escolhi um domínio que conheço por dentro, o do meu trabalho no almoxarifado, e refiz o sistema a cada nova etapa de estudo. Assim, cada versão mostra na prática o que a tecnologia nova resolve.
-
-```
-v1 · POO  ─────▶  v2 · JDBC  ─────▶  v3 · Spring Boot
-Java puro         MySQL + SQL         JPA + API REST
-68 testes         transações          38 testes · em andamento
-```
 
 | Versão | O que aprendi |
 | :-- | :-- |
@@ -86,15 +75,11 @@ Java puro         MySQL + SQL         JPA + API REST
 
 </details>
 
-<details>
-<summary><b>O que estou estudando agora</b></summary>
-<br>
+### Stack
 
-- [ ] Regras de negócio da v3 com Spring: notas fiscais, requisições e estornos
-- [ ] Testes automatizados no Spring
-- [ ] Boas práticas de APIs REST
-
-</details>
+<p>
+  <img alt="Java, Spring, Hibernate, MySQL, Maven, Git, GitHub, IntelliJ, HTML, CSS e JavaScript" src="https://skillicons.dev/icons?i=java,spring,hibernate,mysql,maven,git,github,idea,html,css,js&perline=11">
+</p>
 
 ### Contribuições
 
