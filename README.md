@@ -31,7 +31,7 @@ Estudante de Análise e Desenvolvimento de Sistemas no SENAC SP (2025–2028), e
       <a href="https://github.com/GvPOliveira/almoxarifado-system">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="./assets/card-almoxarifado-v1-v2-dark.svg">
-          <img alt="Almoxarifado v1 e v2: regras de negócio em Java puro e persistência com JDBC, 64 testes" src="./assets/card-almoxarifado-v1-v2-light.svg" width="100%">
+          <img alt="Almoxarifado v1 e v2: regras de negócio em Java puro e persistência com JDBC, 68 testes na v1" src="./assets/card-almoxarifado-v1-v2-light.svg" width="100%">
         </picture>
       </a>
     </td>
@@ -58,7 +58,7 @@ Estudante de Análise e Desenvolvimento de Sistemas no SENAC SP (2025–2028), e
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/timeline-dark.svg">
-  <img alt="Trajetória: v1 em Java puro com POO e 64 testes; v2 com JDBC e MySQL; v3 atual com Spring Boot, JPA e 38 testes; próximo passo: notas fiscais, requisições e estornos via API" src="./assets/timeline-light.svg" width="100%">
+  <img alt="Trajetória: v1 em Java puro com POO e 68 testes; v2 com JDBC e MySQL; v3 atual com Spring Boot, JPA e 38 testes; próximo passo: notas fiscais, requisições e estornos via API" src="./assets/timeline-light.svg" width="100%">
 </picture>
 
 <details>
